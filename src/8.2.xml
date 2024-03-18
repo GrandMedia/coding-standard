@@ -5,7 +5,7 @@
 	<config name="php_version" value="80200"/>
 
 	<!-- Import base -->
-	<rule ref="./ruleset-base.xml"/>
+	<rule ref="./base.xml"/>
 
 	<!-- Version-specific rules -->
 	<!-- - since 7.3 -->
