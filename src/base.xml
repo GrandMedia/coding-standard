@@ -18,7 +18,6 @@
 
 	<rule ref="SlevomatCodingStandard.Arrays.ArrayAccess"/>
 	<rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
-	<rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation"/>
 	<rule ref="SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement"/>
 	<rule ref="SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace"/>
 	<rule ref="Generic.Arrays.ArrayIndent">
@@ -187,6 +186,7 @@
 		<exclude name="Squiz.Commenting.FunctionComment.WrongStyle"/>
 		<!-- Superseded by PHPStan -->
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamName"/>
+		<exclude name="Squiz.Commenting.FunctionComment.InvalidReturnVoid"/>
 	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ExtraParamComment">
 		<message>Function has more @param annotations than params</message>
