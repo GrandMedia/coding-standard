@@ -5,3 +5,4 @@ services:
       - './:/var/www/html'
       - './.docker/web/php/development.ini:/usr/local/etc/php/conf.d/development.ini'
       - '~/.ssh:/root/.ssh'
+    user: 1000:1000
