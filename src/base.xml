@@ -873,7 +873,7 @@
 	</rule>
 	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse"/>
 	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>
-	<rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormatSniff">
+	<rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
 		<properties>
 			<property name="withSpacesAroundOperators" value="no"/>
 			<property name="withSpacesInsideParentheses" value="no"/>
