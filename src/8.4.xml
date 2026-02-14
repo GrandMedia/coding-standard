@@ -2,12 +2,20 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="./../vendor/squizlabs/php_codesniffer/phpcs.xsd">
 	<!-- Configure ruleset -->
-	<config name="php_version" value="80200"/>
+	<config name="php_version" value="80400"/>
 
 	<!-- Import base -->
 	<rule ref="./base.xml"/>
 
 	<!-- Version-specific rules -->
 	<!-- - since 8.4 -->
+
+	<!-- PSR2 PropertyDeclaration doesn't understand PHP 8.4 property hooks -->
+	<rule ref="PSR2.Classes.PropertyDeclaration.Multiple">
+		<severity>0</severity>
+	</rule>
+	<rule ref="PSR2.Classes.PropertyDeclaration.ScopeMissing">
+		<severity>0</severity>
+	</rule>
 
 </ruleset>
